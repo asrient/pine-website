@@ -1,0 +1,5 @@
+ErrorDocument 404 /404.php
+ErrorDocument 500 "<h1>Kill me!</h1>"
+RedirectMatch 404 ^/parts/.*$
+Options -Indexes
+ServerSignature Off

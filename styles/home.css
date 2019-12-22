@@ -1,0 +1,263 @@
+#body{
+    width:100vw;
+}
+#sec1{
+    position: relative;
+width:100%;
+height: 220vh;
+background-color: black;
+}
+#dark{
+    background-color: black;
+}
+#sec2{
+    position: relative;
+    width:100%;
+min-height: 230vh;
+overflow: hidden;
+}
+#sec3{
+    height: 45rem;
+    max-height: 130vh;
+    width: 100%;
+    position: relative;
+}
+#sec3-hero{
+width: 100%;
+height: 45rem;
+position: absolute;
+top:8rem;
+left:0px;
+background-image: url('/media/sec3-hero.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+opacity: 0.2;
+}
+#sec0{
+    width: 100%;
+min-height: 100vh;
+position: relative;
+top:0rem;
+background: black;
+}
+#sec0-hero{
+position: absolute;
+top:0px;
+background-image: url('/media/sec0-hero.png');
+background-size: contain;
+background-position: top;
+background-repeat: no-repeat;
+background-position: center;
+transform: scale(1);
+opacity: 1;
+height: 100vh;
+ width: 100%;
+ z-index: 0;
+}
+#sec0-init{
+height: 50vh;
+width:100%;
+}
+#sec0-txt{
+    height: 100vh;
+    width:100%;
+    position: relative;
+    }
+#sec1_txt2{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 1rem;
+    padding-bottom: 12rem;
+    text-align: left;
+    height: 100vh;
+    max-width:40rem;
+}
+#sec2-init-space{
+    height: 100vh;
+}
+#sec2-bg{
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100vh;
+    width:100vw;
+    transform: scale(2.5);
+    background-image: url('/media/sec2-hero.png');
+    background-size: contain;
+    background-position: center;
+    z-index: 0;
+    background-repeat: no-repeat;
+}
+#sec2-iPhone-space{
+    position: relative;
+    height: 40rem;
+    min-height: 30rem;
+    min-height: 75vh;
+    z-index: 1;
+}
+#sec2-iPhone{
+    position: relative;
+    height: 16rem;
+    z-index: 2;
+    width:10rem;
+    background-image: url('/media/sec2-iPhone.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(2.5);
+}
+
+#sec2-iPhone-container{
+    position: relative;
+    width: 100vw;
+    align-items: flex-end;
+    top: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    padding: 1.5rem;
+}
+#apps-hero-blur-bg{
+    height: 100vh;
+    width:100vw;
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color:black;
+    background-image: url('/media/apps-blur-hero.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+#apps-hero-bg{
+    opacity: 0;
+    height: 100vh;
+    width:100vw;
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color:black;
+    background-image: url('/media/apps-hero.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+#sec2-txt2-container{
+    width: 100%;
+    padding: 2rem;
+}
+#sec2-txt2{
+    max-width: 50rem;
+    padding: 2rem;
+    padding-bottom:1rem;
+}
+#sec4{
+    min-height: 70vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    min-width: 40rem;
+}
+#sec4-lock{
+    margin:2rem;
+    height: 6rem;
+    width:6rem;
+    background-image: url('/media/lock-black.png');
+    background-size: contain;
+    background-position: center;
+}
+#sec5{
+    min-height: 10rem;
+    width:100%;
+    position: relative;
+    top: 0px;
+}
+#sec5-txt{
+    padding:2rem;
+}
+#sec5-hero{
+    position: relative;
+    top:5rem;
+    margin: 0.5rem 0rem;
+    background-image: url('/media/sec5-hero.png');
+    background-size: contain;
+    background-position: center;
+    height: 45vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+#sec5-butt{
+    padding: 0.3rem 1rem;
+    margin: 0.3rem;
+    border: 3px solid black;
+    border-radius: 2rem;
+}
+#sec5-butt:hover{
+  color:white;
+  background-color: black;
+}
+@media(max-width:800px){
+    #sec2-iPhone-space{
+        height: 78vh;
+    }
+}
+@media(max-width:550px){
+    #sec3-hero{
+        background-size: cover;
+        }
+}
+
+@media(max-width:600px){
+    #sec4{
+        min-height: unset;
+        display: block;
+        padding: 5rem 1rem;
+        width: 100%;
+        min-width: unset;
+    }
+    #sec3-hero{
+        background-image: url('/media/sec3-hero.m.png');
+        }
+    #sec2-iPhone-space{
+        height: 78vh;
+    }
+    #sec2-iPhone{      
+        height: 9rem;
+        width:6rem;
+    }
+    #apps-hero-blur-bg{
+        background-image: url('/media/apps-blur-hero.m.png');
+    }
+    #apps-hero-bg{
+        background-image: url('/media/apps-hero.m.png');
+    }
+}
+@media(max-width:350px){
+    #sec2-iPhone{      
+        height: 7rem;
+        width:5rem;
+    }
+}
+
+#scrollies{
+    min-height: 100vw;
+    width:100%;
+    overflow: hidden;
+    position: relative;
+    top:0px;
+    left:0px;
+    z-index: 2;
+}
+#sec1_txt1{
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+#sec2-txt{
+    position: relative;
+    padding:2rem;
+    margin: 1rem;
+    max-width: 50rem;
+}

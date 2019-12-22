@@ -1,0 +1,9 @@
+.spacer{
+    height:70vh;
+}
+#animate3{
+    position: fixed;
+    top:0px;
+    background: rgb(0, 162, 255);
+    width: 20rem;
+}
