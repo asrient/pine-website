@@ -10,15 +10,15 @@
     <script src="/scripts/ScrollMagic.min.js"></script>
     <script src="/scripts/animation.gsap.js"></script>
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-    <script type="application/ld+json">
-      {
-        "@context": "http://schema.org",
-        "headline": "Power up your devices with our apps.",
-        "image": [
-          "logo.jpg"
-        ]
-      }
-    </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154933384-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-154933384-1');
+</script>
     </head>
     <body>
     <?php
